@@ -23,14 +23,14 @@ A FastAPI-based web application that detects ingredients from an uploaded image 
 
 - **`generation_kwargs`**:
 
-python
+```python
 generation_kwargs = {
     "max_length": 512,
     "min_length": 64,
     "do_sample": True,
     "top_k": 60,
     "top_p": 0.95 
-
+```
 - You can adjust these values to fine-tune the output length, randomness, and creativity of the generated recipes.
 
 
@@ -65,18 +65,7 @@ generation_kwargs = {
    
 ## 📁 Project Structure
 
-AI Recipe Generation from Visual Inputs/
-├── app.py
-├── main.py
-├── requirements.txt
-├── Veg3.webp
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── jss/
-│       └── script.js
-└── templates/
-    └── index.html
+<pre> ``` AI Recipe Generation from Visual Inputs/ ├── app.py ├── main.py ├── requirements.txt ├── Veg3.webp ├── static/ │ ├── css/ │ │ └── style.css │ └── jss/ │ └── script.js └── templates/ └── index.html ``` </pre>
 
 
 ## 🤖 Models Used
