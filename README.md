@@ -2,6 +2,7 @@
 
 A FastAPI-based web application that detects ingredients from an uploaded image using YOLOv8 and generates a recipe using a pre-trained NLP model (`flax-community/t5-recipe-generation`).
 
+
 ## 🚀 Features
 
 - Upload or capture an image to detect ingredients
@@ -9,11 +10,14 @@ A FastAPI-based web application that detects ingredients from an uploaded image 
 - AI-generated recipes using deep learning
 - Stylish and interactive front-end
 
+
 ## 🛠️ Tech Stack
 
 - **Backend:** FastAPI, Ultralytics YOLOv8, Hugging Face Transformers
 - **Frontend:** HTML, CSS, JavaScript
 - **Model:** `best.pt` for object detection, `t5-recipe-generation` for NLP
+  (https://drive.google.com/file/d/1RFNoyGGBSDIRi69-wT9jwr6b-lQxHsxm/view?usp=sharing) - You can download the weights (best.pt) from this drive link.
+  
 
 ## 📦 Setup Instructions
 
@@ -43,6 +47,7 @@ A FastAPI-based web application that detects ingredients from an uploaded image 
 
 6. Open [http://localhost:8000](http://localhost:8000) in your browser.
 
+   
 ## 📁 Project Structure
 
 AI Recipe Generation from Visual Inputs/
@@ -58,10 +63,12 @@ AI Recipe Generation from Visual Inputs/
 └── templates/
     └── index.html
 
+
 ## 🤖 Models Used
 
 - **YOLOv8 (`best.pt`)**: Detects vegetables and fruits from images.
 - **T5 Recipe Generator**: Generates cooking instructions based on detected or manually entered ingredients.
+
 
 ## 📸 Screenshots
 
@@ -69,10 +76,12 @@ AI Recipe Generation from Visual Inputs/
 ![Screenshot 2025-04-04 123519](https://github.com/user-attachments/assets/ba0648eb-4b07-4d40-8e69-50357367dde5)
 ![Screenshot 2025-04-14 125201](https://github.com/user-attachments/assets/4d8aa13d-e9ad-4883-90a6-c7eb3568c2d3)
 
+
 ## 🙌 Credits
 
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - [Flax T5 Recipe Generator](https://huggingface.co/flax-community/t5-recipe-generation)
+
 
 ## 📝 License
 
