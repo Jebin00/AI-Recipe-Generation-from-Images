@@ -19,8 +19,11 @@ A FastAPI-based web application that detects ingredients from an uploaded image 
   (https://drive.google.com/file/d/1RFNoyGGBSDIRi69-wT9jwr6b-lQxHsxm/view?usp=sharing) - You can download the weights (best.pt) from this drive link.
 
 
-## Parameters
+## ⚙️ Generation Parameters
 
+- **`generation_kwargs`**:
+
+```python
 generation_kwargs = {
     "max_length": 512,
     "min_length": 64,
@@ -28,7 +31,8 @@ generation_kwargs = {
     "top_k": 60,
     "top_p": 0.95
 }
-- You can change the parameters according to your output preferences.
+- You can adjust these values to fine-tune the output length, randomness, and creativity of the generated recipes.
+
 
 ## 📦 Setup Instructions
 
