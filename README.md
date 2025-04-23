@@ -60,7 +60,7 @@ generation_kwargs = {
     uvicorn main:app --reload
     ```
 
-6. Open [http://localhost:8000](http://localhost:8080) in your browser.
+6. Open [http://localhost:8000](http://localhost:8080/) in your browser.
 
    
 ## 📁 Project Structure
