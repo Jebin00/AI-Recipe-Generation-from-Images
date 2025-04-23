@@ -30,7 +30,7 @@ generation_kwargs = {
     "do_sample": True,
     "top_k": 60,
     "top_p": 0.95
-}
+}'''
 - You can adjust these values to fine-tune the output length, randomness, and creativity of the generated recipes.
 
 
