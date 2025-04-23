@@ -45,7 +45,7 @@ A FastAPI-based web application that detects ingredients from an uploaded image 
     uvicorn main:app --reload
     ```
 
-6. Open [http://localhost:8000](http://localhost:8000) in your browser.
+6. Open [http://localhost:8000](http://localhost:8080) in your browser.
 
    
 ## 📁 Project Structure
