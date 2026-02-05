@@ -1,11 +1,11 @@
-# 🧠 AI-Powered Recipe Generator 🍽️
+# AI-Powered Recipe Generator 
 
 A FastAPI-based web application that detects ingredients (fruits and vegetables) from an uploaded image using YOLOv8 and generates a recipe using a pre-trained NLP model (`flax-community/t5-recipe-generation`).
 
 
 
 
-## 🚀 Features
+## Features
 
 - Upload or capture an image to detect ingredients
 - Manually add ingredients
@@ -13,7 +13,7 @@ A FastAPI-based web application that detects ingredients (fruits and vegetables)
 - Stylish and interactive front-end
       
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend:** FastAPI, Ultralytics YOLOv8, Hugging Face Transformers
 - **Frontend:** HTML, CSS, JavaScript
@@ -21,7 +21,7 @@ A FastAPI-based web application that detects ingredients (fruits and vegetables)
   (https://drive.google.com/file/d/1RFNoyGGBSDIRi69-wT9jwr6b-lQxHsxm/view?usp=sharing) - You can download the weights (best.pt) from this drive link.
 
 
-## ⚙️ Generation Parameters
+## Generation Parameters
 
 - **`generation_kwargs`**:
 
@@ -36,7 +36,7 @@ generation_kwargs = {
 - You can adjust these values to fine-tune the output length, randomness, and creativity of the generated recipes.
 
 
-## 📦 Setup Instructions
+## Setup Instructions
 
 1. Clone the repository:
     ```bash
@@ -65,7 +65,7 @@ generation_kwargs = {
 6. Open [http://localhost:8080](http://localhost:8080/) in your browser.
 
    
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 AI Recipe Generation from Visual Inputs/
@@ -83,13 +83,13 @@ AI Recipe Generation from Visual Inputs/
 ```
 
 
-## 🤖 Models Used
+## Models Used
 
 - **YOLOv8 (`best.pt`)**: Detects vegetables and fruits from images.
 - **T5 Recipe Generator**: Generates cooking instructions based on detected or manually entered ingredients.
 
 
-## 📸 Screenshots
+## Screenshots
 
 ![Screenshot 2025-04-04 122612](https://github.com/user-attachments/assets/acaee353-80e0-4c4a-895c-e6e06dd5dc45)
 
@@ -98,13 +98,13 @@ AI Recipe Generation from Visual Inputs/
 ![Screenshot 2025-04-14 125201](https://github.com/user-attachments/assets/4d8aa13d-e9ad-4883-90a6-c7eb3568c2d3)
 
 
-## 🙌 Credits
+## Credits
 
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - [Flax T5 Recipe Generator](https://huggingface.co/flax-community/t5-recipe-generation)
 
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License.
 
